@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>A3CD465210920C3600D991D6</string>
+						<string>A3CD46B4109211F300D991D6</string>
 						<key>history</key>
 						<array>
-							<string>A3010AE410908A9100F90BF8</string>
+							<string>A3CD465210920C3600D991D6</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -318,8 +318,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>11</integer>
+									<integer>5</integer>
+									<integer>3</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -361,7 +362,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MainMenu.xib</string>
+								<string>ModemE220.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -369,11 +370,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MainMenu.xib</string>
+										<string>ModemE220.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A3CD464F10920C3600D991D6</string>
+										<string>A3CD46B3109211F300D991D6</string>
 										<key>history</key>
 										<array>
 											<string>A3F6152E108E281000882634</string>
@@ -383,17 +384,18 @@
 											<string>A36620D2108ED9E000D8940B</string>
 											<string>A3662199108EDB6000D8940B</string>
 											<string>A36621AA108EDD6400D8940B</string>
-											<string>A36621C2108EE0FD00D8940B</string>
 											<string>A36621D1108EE1E400D8940B</string>
 											<string>A36621D3108EE1E400D8940B</string>
 											<string>A30E6A87108EE73400AAB09F</string>
 											<string>A30E6AC9108EED8800AAB09F</string>
-											<string>A39929F6108FA843002EC3DA</string>
 											<string>A3992A0D108FA912002EC3DA</string>
-											<string>A3CD464810920C3600D991D6</string>
 											<string>A3CD464910920C3600D991D6</string>
 											<string>A3CD464A10920C3600D991D6</string>
-											<string>A3CD464B10920C3600D991D6</string>
+											<string>A3CD467810920E3500D991D6</string>
+											<string>A3CD469D109211C900D991D6</string>
+											<string>A3CD469E109211C900D991D6</string>
+											<string>A3CD469F109211C900D991D6</string>
+											<string>A3CD46A0109211C900D991D6</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -412,9 +414,21 @@
 											<string>A36621D9108EE1E400D8940B</string>
 											<string>A36621DC108EE1E400D8940B</string>
 											<string>A30E6A8B108EE73400AAB09F</string>
-											<string>A3CD464C10920C3600D991D6</string>
 											<string>A3CD464D10920C3600D991D6</string>
 											<string>A3CD464E10920C3600D991D6</string>
+											<string>A3CD467910920E3500D991D6</string>
+											<string>A3CD46A1109211C900D991D6</string>
+											<string>A3CD46A2109211C900D991D6</string>
+											<string>A3CD46A3109211C900D991D6</string>
+											<string>A3CD46A4109211C900D991D6</string>
+											<string>A3CD46A5109211C900D991D6</string>
+											<string>A3CD46A6109211C900D991D6</string>
+											<string>A3CD46A7109211C900D991D6</string>
+											<string>A3CD46A8109211C900D991D6</string>
+											<string>A3CD46A9109211C900D991D6</string>
+											<string>A3CD46AA109211C900D991D6</string>
+											<string>A3CD46AB109211C900D991D6</string>
+											<string>A3CD46AC109211C900D991D6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -472,9 +486,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>A3CD465010920C3600D991D6</string>
+				<string>A3CD466410920DF800D991D6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>A3CD465110920C3600D991D6</string>
+				<string>A3CD466510920DF800D991D6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -608,6 +622,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>A3CD467010920DF800D991D6</string>
+		<string>A3CD467110920DF800D991D6</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>A3A11FC0108E1E8900BC1859</string>
 		<string>A366215D108ED9E000D8940B</string>
 		<string>/Users/dei/Development/mstat/svn/trunk/mstat/mstat.xcodeproj</string>
@@ -690,7 +708,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>A3A11FC0108E1E8900BC1859</string>
-				<string>A3CD465310920C3600D991D6</string>
+				<string>A3CD466710920DF800D991D6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -810,13 +828,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>A3010AD610908A7200F90BF8</string>
+				<string>A3CD466810920DF800D991D6</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>A3010AD710908A7200F90BF8</string>
-				<string>A3010AD810908A7200F90BF8</string>
-				<string>A3010AD910908A7200F90BF8</string>
-				<string>A3010ADA10908A7200F90BF8</string>
-				<string>A3010ADB10908A7200F90BF8</string>
+				<string>A3CD466910920DF800D991D6</string>
+				<string>A3CD466A10920DF800D991D6</string>
+				<string>A3CD466B10920DF800D991D6</string>
+				<string>A3CD466C10920DF800D991D6</string>
+				<string>A3CD466D10920DF800D991D6</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -978,7 +996,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>A3010ADC10908A7200F90BF8</string>
+				<string>A3CD466E10920DF800D991D6</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

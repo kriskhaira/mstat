@@ -13,6 +13,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A366206F108ECE6900D8940B /* MSModemInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = A366206E108ECE6900D8940B /* MSModemInstance.m */; };
 		A3662074108ED01000D8940B /* ModemE220.m in Sources */ = {isa = PBXBuildFile; fileRef = A3662073108ED01000D8940B /* ModemE220.m */; };
+		A3CD46961092101900D991D6 /* SerialPortCommunication.c in Sources */ = {isa = PBXBuildFile; fileRef = A3CD46951092101900D991D6 /* SerialPortCommunication.c */; };
 		A3F614EC108E267300882634 /* MSMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F614EB108E267300882634 /* MSMainWindowController.m */; };
 		A3F61574108E2ADC00882634 /* libncurses.5.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F61573108E2ADC00882634 /* libncurses.5.4.dylib */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,8 @@
 		A366206E108ECE6900D8940B /* MSModemInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSModemInstance.m; sourceTree = "<group>"; };
 		A3662072108ED01000D8940B /* ModemE220.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemE220.h; sourceTree = "<group>"; };
 		A3662073108ED01000D8940B /* ModemE220.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemE220.m; sourceTree = "<group>"; };
+		A3CD46941092101900D991D6 /* SerialPortCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialPortCommunication.h; sourceTree = "<group>"; };
+		A3CD46951092101900D991D6 /* SerialPortCommunication.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SerialPortCommunication.c; sourceTree = "<group>"; };
 		A3F614EA108E267300882634 /* MSMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMainWindowController.h; sourceTree = "<group>"; };
 		A3F614EB108E267300882634 /* MSMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMainWindowController.m; sourceTree = "<group>"; };
 		A3F61573108E2ADC00882634 /* libncurses.5.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libncurses.5.4.dylib; path = usr/lib/libncurses.5.4.dylib; sourceTree = SDKROOT; };
@@ -58,6 +61,8 @@
 				A3F614EB108E267300882634 /* MSMainWindowController.m */,
 				A366206D108ECE6900D8940B /* MSModemInstance.h */,
 				A366206E108ECE6900D8940B /* MSModemInstance.m */,
+				A3CD46941092101900D991D6 /* SerialPortCommunication.h */,
+				A3CD46951092101900D991D6 /* SerialPortCommunication.c */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 				A3F614EC108E267300882634 /* MSMainWindowController.m in Sources */,
 				A366206F108ECE6900D8940B /* MSModemInstance.m in Sources */,
 				A3662074108ED01000D8940B /* ModemE220.m in Sources */,
+				A3CD46961092101900D991D6 /* SerialPortCommunication.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
