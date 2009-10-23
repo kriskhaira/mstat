@@ -24,6 +24,10 @@
 #include <unistd.h>
 #include <curses.h>
 
+#include "SerialPortCommunication.h"
+
+#define BUFSIZE 512
+
 @implementation ModemE220
 
 + (ModemE220*) instance:(NSObject*)displayController
@@ -45,9 +49,9 @@
 	char c;
 	int signal;
 	
-	buf=(char *)malloc(256*sizeof(char));
+	buf=(char *)malloc(BUFSIZE*sizeof(char));
 	
-	fd = open(self->_bsdDevicePath, O_RDONLY | O_NOCTTY | O_NONBLOCK );
+	fd = OpenSerialPort( self->_bsdDevicePath );
 	if (fd < 0) 
 	{
 		exit(1);
@@ -57,7 +61,7 @@
 	{
         while ((c=getch())==ERR)
 		{
-			bytes = read(fd,buf,255);
+			bytes = read(fd,buf,BUFSIZE);
 			buf2=strchr(buf,'^');
 			buf[bytes]=0x00;
 			
@@ -75,11 +79,17 @@
 						
 						// update all observer
 						[sender signalDataUpdated];
+						
+						// give the os a chance when the statistic interface will 
+						// flood us with data 
+//						sleep(1000);
 					}
 				}
 			}
-        }
+		}
 	}
+	
+	CloseSerialPort(fd);
 }
 
 

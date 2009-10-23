@@ -27,11 +27,12 @@
 			A3F61579108E2B3C00882634 /* MSMainWindowController.m:91 */,
 			A3F6158B108E2B5300882634 /* MSMainWindowController.m:91 */,
 			A3662169108ED9F500D8940B /* MSMainWindowController.m:22 */,
-			A3662171108EDA0300D8940B /* ModemE220.m:43 */,
-			A3662174108EDA0D00D8940B /* ModemE220.m:38 */,
-			A366218B108EDAB800D8940B /* ModemE220.m:74 */,
+			A3662171108EDA0300D8940B /* ModemE220.m:47 */,
+			A3662174108EDA0D00D8940B /* ModemE220.m:42 */,
+			A366218B108EDAB800D8940B /* ModemE220.m:78 */,
 			A36621E6108EE28A00D8940B /* MSMainWindowController.m:60 */,
 			A30E6A79108EE5D500AAB09F /* MSMainWindowController.m:87 */,
+			A3CD468710920ECE00D991D6 /* ModemE220.m:66 */,
 		);
 		codeSenseManager = A3A11FCA108E1E8900BC1859 /* Code sense */;
 		executables = (
@@ -60,11 +61,10 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 278006786;
-			PBXWorkspaceStateSaveDate = 278006786;
+			PBXPerProjectTemplateStateSaveDate = 278007282;
+			PBXWorkspaceStateSaveDate = 278007282;
 		};
 		perUserProjectItems = {
-			A3010AE410908A9100F90BF8 /* PBXTextBookmark */ = A3010AE410908A9100F90BF8 /* PBXTextBookmark */;
 			A30E6A87108EE73400AAB09F /* PBXTextBookmark */ = A30E6A87108EE73400AAB09F /* PBXTextBookmark */;
 			A30E6A8B108EE73400AAB09F /* PBXTextBookmark */ = A30E6A8B108EE73400AAB09F /* PBXTextBookmark */;
 			A30E6AC9108EED8800AAB09F /* PBXTextBookmark */ = A30E6AC9108EED8800AAB09F /* PBXTextBookmark */;
@@ -80,22 +80,36 @@
 			A3662199108EDB6000D8940B /* PBXTextBookmark */ = A3662199108EDB6000D8940B /* PBXTextBookmark */;
 			A36621AA108EDD6400D8940B /* PBXTextBookmark */ = A36621AA108EDD6400D8940B /* PBXTextBookmark */;
 			A36621B1108EDD6400D8940B /* PBXTextBookmark */ = A36621B1108EDD6400D8940B /* PBXTextBookmark */;
-			A36621C2108EE0FD00D8940B /* PBXTextBookmark */ = A36621C2108EE0FD00D8940B /* PBXTextBookmark */;
 			A36621D1108EE1E400D8940B /* PBXTextBookmark */ = A36621D1108EE1E400D8940B /* PBXTextBookmark */;
 			A36621D3108EE1E400D8940B /* PBXTextBookmark */ = A36621D3108EE1E400D8940B /* PBXTextBookmark */;
 			A36621D9108EE1E400D8940B /* PBXTextBookmark */ = A36621D9108EE1E400D8940B /* PBXTextBookmark */;
 			A36621DC108EE1E400D8940B /* PBXTextBookmark */ = A36621DC108EE1E400D8940B /* PBXTextBookmark */;
-			A39929F6108FA843002EC3DA /* PBXTextBookmark */ = A39929F6108FA843002EC3DA /* PBXTextBookmark */;
 			A3992A0D108FA912002EC3DA /* PBXTextBookmark */ = A3992A0D108FA912002EC3DA /* PBXTextBookmark */;
-			A3CD464810920C3600D991D6 /* PBXTextBookmark */ = A3CD464810920C3600D991D6 /* PBXTextBookmark */;
 			A3CD464910920C3600D991D6 /* PlistBookmark */ = A3CD464910920C3600D991D6 /* PlistBookmark */;
 			A3CD464A10920C3600D991D6 /* PBXTextBookmark */ = A3CD464A10920C3600D991D6 /* PBXTextBookmark */;
-			A3CD464B10920C3600D991D6 /* PBXTextBookmark */ = A3CD464B10920C3600D991D6 /* PBXTextBookmark */;
-			A3CD464C10920C3600D991D6 /* PBXTextBookmark */ = A3CD464C10920C3600D991D6 /* PBXTextBookmark */;
 			A3CD464D10920C3600D991D6 /* PlistBookmark */ = A3CD464D10920C3600D991D6 /* PlistBookmark */;
 			A3CD464E10920C3600D991D6 /* PBXTextBookmark */ = A3CD464E10920C3600D991D6 /* PBXTextBookmark */;
-			A3CD464F10920C3600D991D6 /* PBXTextBookmark */ = A3CD464F10920C3600D991D6 /* PBXTextBookmark */;
 			A3CD465210920C3600D991D6 /* PBXTextBookmark */ = A3CD465210920C3600D991D6 /* PBXTextBookmark */;
+			A3CD467810920E3500D991D6 /* PBXTextBookmark */ = A3CD467810920E3500D991D6 /* PBXTextBookmark */;
+			A3CD467910920E3500D991D6 /* PBXTextBookmark */ = A3CD467910920E3500D991D6 /* PBXTextBookmark */;
+			A3CD469D109211C900D991D6 /* PBXTextBookmark */ = A3CD469D109211C900D991D6 /* PBXTextBookmark */;
+			A3CD469E109211C900D991D6 /* PBXTextBookmark */ = A3CD469E109211C900D991D6 /* PBXTextBookmark */;
+			A3CD469F109211C900D991D6 /* PBXTextBookmark */ = A3CD469F109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46A0109211C900D991D6 /* PBXTextBookmark */ = A3CD46A0109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46A1109211C900D991D6 /* PBXTextBookmark */ = A3CD46A1109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46A2109211C900D991D6 /* PBXTextBookmark */ = A3CD46A2109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46A3109211C900D991D6 /* PBXTextBookmark */ = A3CD46A3109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46A4109211C900D991D6 /* PBXTextBookmark */ = A3CD46A4109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46A5109211C900D991D6 /* PBXTextBookmark */ = A3CD46A5109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46A6109211C900D991D6 /* PBXTextBookmark */ = A3CD46A6109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46A7109211C900D991D6 /* PBXTextBookmark */ = A3CD46A7109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46A8109211C900D991D6 /* PBXTextBookmark */ = A3CD46A8109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46A9109211C900D991D6 /* PBXTextBookmark */ = A3CD46A9109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46AA109211C900D991D6 /* PBXTextBookmark */ = A3CD46AA109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46AB109211C900D991D6 /* PBXTextBookmark */ = A3CD46AB109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46AC109211C900D991D6 /* PBXTextBookmark */ = A3CD46AC109211C900D991D6 /* PBXTextBookmark */;
+			A3CD46B3109211F300D991D6 /* PBXTextBookmark */ = A3CD46B3109211F300D991D6 /* PBXTextBookmark */;
+			A3CD46B4109211F300D991D6 /* PBXTextBookmark */ = A3CD46B4109211F300D991D6 /* PBXTextBookmark */;
 			A3F614FD108E26D600882634 /* PBXTextBookmark */ = A3F614FD108E26D600882634 /* PBXTextBookmark */;
 			A3F61509108E278C00882634 /* PBXTextBookmark */ = A3F61509108E278C00882634 /* PBXTextBookmark */;
 			A3F6152E108E281000882634 /* PBXTextBookmark */ = A3F6152E108E281000882634 /* PBXTextBookmark */;
@@ -121,16 +135,6 @@
 			A3A11FB5108E1E7800BC1859 /* mstat */,
 		);
 	};
-	A3010AE410908A9100F90BF8 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A3662072108ED01000D8940B /* ModemE220.h */;
-		name = "ModemE220.h: 10";
-		rLen = 0;
-		rLoc = 599;
-		rType = 0;
-		vrLen = 317;
-		vrLoc = 0;
-	};
 	A30E6A79108EE5D500AAB09F /* MSMainWindowController.m:87 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
@@ -145,7 +149,7 @@
 		ignoreCount = 0;
 		lineNumber = 87;
 		location = mstat;
-		modificationTime = 277908077.124962;
+		modificationTime = 278007503.377179;
 		state = 2;
 	};
 	A30E6A87108EE73400AAB09F /* PBXTextBookmark */ = {
@@ -202,8 +206,8 @@
 	};
 	A366206E108ECE6900D8940B /* MSModemInstance.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 574}}";
-			sepNavSelRange = "{1129, 44}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 630}}";
+			sepNavSelRange = "{25, 531}";
 			sepNavVisRange = "{0, 1030}";
 			sepNavWindowFrame = "{{15, 48}, {750, 830}}";
 		};
@@ -218,9 +222,9 @@
 	};
 	A3662073108ED01000D8940B /* ModemE220.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 1176}}";
-			sepNavSelRange = "{550, 0}";
-			sepNavVisRange = "{0, 962}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1358}}";
+			sepNavSelRange = "{820, 0}";
+			sepNavVisRange = "{473, 746}";
 			sepNavWindowFrame = "{{537, 48}, {750, 830}}";
 		};
 	};
@@ -352,14 +356,14 @@
 		delayBeforeContinue = 0;
 		fileReference = A3F614EB108E267300882634 /* MSMainWindowController.m */;
 		functionName = "-awakeFromNib";
-		hitCount = 1;
+		hitCount = 0;
 		ignoreCount = 0;
 		lineNumber = 22;
 		location = mstat;
-		modificationTime = 277908083.095708;
-		state = 1;
+		modificationTime = 278007503.377015;
+		state = 2;
 	};
-	A3662171108EDA0300D8940B /* ModemE220.m:43 */ = {
+	A3662171108EDA0300D8940B /* ModemE220.m:47 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -371,12 +375,12 @@
 		functionName = "-threadStatisticReader:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 43;
+		lineNumber = 47;
 		location = mstat;
-		modificationTime = 277908077.124851;
+		modificationTime = 278007503.377026;
 		state = 2;
 	};
-	A3662174108EDA0D00D8940B /* ModemE220.m:38 */ = {
+	A3662174108EDA0D00D8940B /* ModemE220.m:42 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -388,12 +392,12 @@
 		functionName = "-startStatisticInterface";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 38;
+		lineNumber = 42;
 		location = mstat;
-		modificationTime = 277908077.124869;
+		modificationTime = 278007503.377092;
 		state = 2;
 	};
-	A366218B108EDAB800D8940B /* ModemE220.m:74 */ = {
+	A366218B108EDAB800D8940B /* ModemE220.m:78 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -405,9 +409,9 @@
 		functionName = "-threadStatisticReader:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 74;
+		lineNumber = 78;
 		location = mstat;
-		modificationTime = 277908077.124882;
+		modificationTime = 278007503.377123;
 		state = 2;
 	};
 	A3662199108EDB6000D8940B /* PBXTextBookmark */ = {
@@ -453,16 +457,6 @@
 		name = NSNibLoading.h;
 		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSNibLoading.h;
 		sourceTree = "<absolute>";
-	};
-	A36621C2108EE0FD00D8940B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A3662073108ED01000D8940B /* ModemE220.m */;
-		name = "ModemE220.m: 31";
-		rLen = 0;
-		rLoc = 1013;
-		rType = 0;
-		vrLen = 597;
-		vrLoc = 556;
 	};
 	A36621D1108EE1E400D8940B /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -546,18 +540,8 @@
 		ignoreCount = 0;
 		lineNumber = 60;
 		location = mstat;
-		modificationTime = 277908077.124898;
+		modificationTime = 278007503.377166;
 		state = 2;
-	};
-	A39929F6108FA843002EC3DA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A3F614EB108E267300882634 /* MSMainWindowController.m */;
-		name = "MSMainWindowController.m: 46";
-		rLen = 0;
-		rLoc = 1215;
-		rType = 0;
-		vrLen = 584;
-		vrLoc = 362;
 	};
 	A39929F9108FA843002EC3DA /* rssi.c */ = {
 		isa = PBXFileReference;
@@ -583,7 +567,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -615,16 +599,6 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	A3CD464810920C3600D991D6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A366206E108ECE6900D8940B /* MSModemInstance.m */;
-		name = "MSModemInstance.m: 41";
-		rLen = 44;
-		rLoc = 1129;
-		rType = 0;
-		vrLen = 1030;
-		vrLoc = 0;
-	};
 	A3CD464910920C3600D991D6 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
@@ -644,23 +618,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 45;
-		vrLoc = 0;
-	};
-	A3CD464B10920C3600D991D6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1DDD58150DA1D0A300B32029 /* English */;
-		rLen = 0;
-		rLoc = 2147483647;
-		rType = 0;
-	};
-	A3CD464C10920C3600D991D6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A366206E108ECE6900D8940B /* MSModemInstance.m */;
-		name = "MSModemInstance.m: 41";
-		rLen = 44;
-		rLoc = 1129;
-		rType = 0;
-		vrLen = 1030;
 		vrLoc = 0;
 	};
 	A3CD464D10920C3600D991D6 /* PlistBookmark */ = {
@@ -684,17 +641,238 @@
 		vrLen = 45;
 		vrLoc = 0;
 	};
-	A3CD464F10920C3600D991D6 /* PBXTextBookmark */ = {
+	A3CD465210920C3600D991D6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1DDD58150DA1D0A300B32029 /* English */;
-		name = "MainMenu.xib: 1";
+		fRef = A3662072108ED01000D8940B /* ModemE220.h */;
+		name = "ModemE220.h: 16";
+		rLen = 0;
+		rLoc = 599;
+		rType = 0;
+		vrLen = 740;
+		vrLoc = 0;
+	};
+	A3CD467810920E3500D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3F614EB108E267300882634 /* MSMainWindowController.m */;
+		name = "MSMainWindowController.m: 22";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 663;
+	};
+	A3CD467910920E3500D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3F614EB108E267300882634 /* MSMainWindowController.m */;
+		name = "MSMainWindowController.m: 22";
+		rLen = 0;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 663;
+	};
+	A3CD468710920ECE00D991D6 /* ModemE220.m:66 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = A3662073108ED01000D8940B /* ModemE220.m */;
+		functionName = "-threadStatisticReader:";
+		hitCount = 9;
+		ignoreCount = 0;
+		lineNumber = 66;
+		location = mstat;
+		modificationTime = 278007588.502838;
+		state = 2;
+	};
+	A3CD46941092101900D991D6 /* SerialPortCommunication.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 447}}";
+			sepNavSelRange = "{648, 0}";
+			sepNavVisRange = "{0, 648}";
+		};
+	};
+	A3CD46951092101900D991D6 /* SerialPortCommunication.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 3458}}";
+			sepNavSelRange = "{1477, 14}";
+			sepNavVisRange = "{924, 1085}";
+		};
+	};
+	A3CD469D109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A366206E108ECE6900D8940B /* MSModemInstance.m */;
+		name = "MSModemInstance.m: 3";
+		rLen = 531;
+		rLoc = 25;
+		rType = 0;
+		vrLen = 1030;
+		vrLoc = 0;
+	};
+	A3CD469E109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46941092101900D991D6 /* SerialPortCommunication.h */;
+		name = "SerialPortCommunication.h: 17";
+		rLen = 0;
+		rLoc = 648;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 0;
+	};
+	A3CD469F109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46951092101900D991D6 /* SerialPortCommunication.c */;
+		name = "SerialPortCommunication.c: 50";
+		rLen = 14;
+		rLoc = 1477;
+		rType = 0;
+		vrLen = 1085;
+		vrLoc = 924;
+	};
+	A3CD46A0109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3662073108ED01000D8940B /* ModemE220.m */;
+		name = "ModemE220.m: 66";
+		rLen = 0;
+		rLoc = 1569;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 1248;
+	};
+	A3CD46A1109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3662073108ED01000D8940B /* ModemE220.m */;
+		name = "ModemE220.m: 66";
+		rLen = 0;
+		rLoc = 1569;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 1248;
+	};
+	A3CD46A2109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46941092101900D991D6 /* SerialPortCommunication.h */;
+		name = "SerialPortCommunication.h: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 1403;
+		vrLen = 146;
 		vrLoc = 0;
 	};
-	A3CD465210920C3600D991D6 /* PBXTextBookmark */ = {
+	A3CD46A3109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46951092101900D991D6 /* SerialPortCommunication.c */;
+		name = "SerialPortCommunication.c: 14";
+		rLen = 39;
+		rLoc = 1473;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 0;
+	};
+	A3CD46A4109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46941092101900D991D6 /* SerialPortCommunication.h */;
+		name = "SerialPortCommunication.h: 10";
+		rLen = 0;
+		rLoc = 565;
+		rType = 0;
+		vrLen = 186;
+		vrLoc = 0;
+	};
+	A3CD46A5109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A366206E108ECE6900D8940B /* MSModemInstance.m */;
+		name = "MSModemInstance.m: 3";
+		rLen = 531;
+		rLoc = 25;
+		rType = 0;
+		vrLen = 1030;
+		vrLoc = 0;
+	};
+	A3CD46A6109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46951092101900D991D6 /* SerialPortCommunication.c */;
+		name = "SerialPortCommunication.c: 13";
+		rLen = 0;
+		rLoc = 487;
+		rType = 0;
+		vrLen = 1237;
+		vrLoc = 0;
+	};
+	A3CD46A7109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46941092101900D991D6 /* SerialPortCommunication.h */;
+		name = "SerialPortCommunication.h: 10";
+		rLen = 0;
+		rLoc = 565;
+		rType = 0;
+		vrLen = 186;
+		vrLoc = 0;
+	};
+	A3CD46A8109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46951092101900D991D6 /* SerialPortCommunication.c */;
+		name = "SerialPortCommunication.c: 1";
+		rLen = 564;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1237;
+		vrLoc = 0;
+	};
+	A3CD46A9109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46941092101900D991D6 /* SerialPortCommunication.h */;
+		name = "SerialPortCommunication.h: 2";
+		rLen = 0;
+		rLoc = 32;
+		rType = 0;
+		vrLen = 605;
+		vrLoc = 0;
+	};
+	A3CD46AA109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46951092101900D991D6 /* SerialPortCommunication.c */;
+		name = "SerialPortCommunication.c: 224";
+		rLen = 40;
+		rLoc = 7823;
+		rType = 0;
+		vrLen = 857;
+		vrLoc = 7679;
+	};
+	A3CD46AB109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46941092101900D991D6 /* SerialPortCommunication.h */;
+		name = "SerialPortCommunication.h: 17";
+		rLen = 0;
+		rLoc = 648;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 0;
+	};
+	A3CD46AC109211C900D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3CD46951092101900D991D6 /* SerialPortCommunication.c */;
+		name = "SerialPortCommunication.c: 50";
+		rLen = 14;
+		rLoc = 1477;
+		rType = 0;
+		vrLen = 1085;
+		vrLoc = 924;
+	};
+	A3CD46B3109211F300D991D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A3662073108ED01000D8940B /* ModemE220.m */;
+		name = "ModemE220.m: 29";
+		rLen = 0;
+		rLoc = 820;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 473;
+	};
+	A3CD46B4109211F300D991D6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = A3662072108ED01000D8940B /* ModemE220.h */;
 		name = "ModemE220.h: 16";
@@ -714,9 +892,9 @@
 	};
 	A3F614EB108E267300882634 /* MSMainWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 1316}}";
-			sepNavSelRange = "{983, 0}";
-			sepNavVisRange = "{0, 1197}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1302}}";
+			sepNavSelRange = "{685, 0}";
+			sepNavVisRange = "{663, 592}";
 			sepNavWindowFrame = "{{15, 48}, {750, 830}}";
 		};
 	};
@@ -734,7 +912,7 @@
 		ignoreCount = 0;
 		lineNumber = 21;
 		location = mstat;
-		modificationTime = 277908077.1245;
+		modificationTime = 278007503.376942;
 		state = 2;
 	};
 	A3F614FD108E26D600882634 /* PBXTextBookmark */ = {
@@ -805,7 +983,7 @@
 		ignoreCount = 0;
 		lineNumber = 91;
 		location = mstat;
-		modificationTime = 277908077.124605;
+		modificationTime = 278007503.376973;
 		state = 2;
 	};
 	A3F61579108E2B3C00882634 /* MSMainWindowController.m:91 */ = {
@@ -822,7 +1000,7 @@
 		ignoreCount = 0;
 		lineNumber = 91;
 		location = mstat;
-		modificationTime = 277908077.124663;
+		modificationTime = 278007503.37699;
 		state = 2;
 	};
 	A3F6157D108E2B4100882634 /* PBXTextBookmark */ = {
@@ -890,7 +1068,7 @@
 		ignoreCount = 0;
 		lineNumber = 91;
 		location = mstat;
-		modificationTime = 277908077.124719;
+		modificationTime = 278007503.377004;
 		state = 2;
 	};
 }
