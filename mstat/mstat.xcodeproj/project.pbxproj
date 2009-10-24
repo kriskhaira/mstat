@@ -14,6 +14,7 @@
 		A366206F108ECE6900D8940B /* MSModemInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = A366206E108ECE6900D8940B /* MSModemInstance.m */; };
 		A3662074108ED01000D8940B /* ModemE220.m in Sources */ = {isa = PBXBuildFile; fileRef = A3662073108ED01000D8940B /* ModemE220.m */; };
 		A3CD46961092101900D991D6 /* SerialPortCommunication.c in Sources */ = {isa = PBXBuildFile; fileRef = A3CD46951092101900D991D6 /* SerialPortCommunication.c */; };
+		A3CD46FB10936C9B00D991D6 /* mstat_icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A3CD46FA10936C9B00D991D6 /* mstat_icon.icns */; };
 		A3F614EC108E267300882634 /* MSMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F614EB108E267300882634 /* MSMainWindowController.m */; };
 		A3F61574108E2ADC00882634 /* libncurses.5.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F61573108E2ADC00882634 /* libncurses.5.4.dylib */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		A3662073108ED01000D8940B /* ModemE220.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemE220.m; sourceTree = "<group>"; };
 		A3CD46941092101900D991D6 /* SerialPortCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialPortCommunication.h; sourceTree = "<group>"; };
 		A3CD46951092101900D991D6 /* SerialPortCommunication.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SerialPortCommunication.c; sourceTree = "<group>"; };
+		A3CD46FA10936C9B00D991D6 /* mstat_icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mstat_icon.icns; sourceTree = "<group>"; };
 		A3F614EA108E267300882634 /* MSMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMainWindowController.h; sourceTree = "<group>"; };
 		A3F614EB108E267300882634 /* MSMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMainWindowController.m; sourceTree = "<group>"; };
 		A3F61573108E2ADC00882634 /* libncurses.5.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libncurses.5.4.dylib; path = usr/lib/libncurses.5.4.dylib; sourceTree = SDKROOT; };
@@ -118,6 +120,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A3CD46FA10936C9B00D991D6 /* mstat_icon.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -188,6 +191,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				A3CD46FB10936C9B00D991D6 /* mstat_icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

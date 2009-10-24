@@ -51,44 +51,43 @@
 	
 	buf=(char *)malloc(BUFSIZE*sizeof(char));
 	
-	fd = OpenSerialPort( self->_bsdDevicePath );
-	if (fd < 0) 
+	while( 1 )
 	{
-		exit(1);
-	}
+		fd = OpenSerialPort( self->_bsdDevicePath );
+		if (fd < 0) 
+			return;
 	
-	while (c!='q'&&c!='Q')
-	{
-        while ((c=getch())==ERR)
+		while (c!='q'&&c!='Q')
 		{
-			bytes = read(fd,buf,BUFSIZE);
-			buf2=strchr(buf,'^');
-			buf[bytes]=0x00;
-			
-			if (buf2) {
-				strcpy(buf, buf2);
-				if (buf[0]=='^')
-				{
-					if ( buf[1] == 'R' )
+					while ((c=getch())==ERR)
 					{
-						// convert the signal strength
-						signal=atoi(buf+6);			
+						bytes = read(fd,buf,BUFSIZE);
+						buf2=strchr(buf,'^');
+						buf[bytes]=0x00;
+			
+						if (buf2) 
+						{
+							strcpy(buf, buf2);
+							if (buf[0]=='^')
+							{
+								if ( buf[1] == 'R' )
+								{
+									// convert the signal strength
+									signal=atoi(buf+6);			
 						
-						// set the value
-						[sender setSignalStrength:signal];
+									// set the value
+									[sender setSignalStrength:signal];
 						
-						// update all observer
-						[sender signalDataUpdated];
-						
-						// give the os a chance when the statistic interface will 
-						// flood us with data 
-//						sleep(1000);
+									// update all observer
+									[sender signalDataUpdated];						
+								}
+							}
+						}
 					}
-				}
 			}
-		}
+		
+		sleep(5 * 1000 );
 	}
-	
 	CloseSerialPort(fd);
 }
 
